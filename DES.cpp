@@ -211,8 +211,7 @@ int main(int argc, char* argv[])
 {
 	// pt is plain text
 	string op = argv[1], plain_text = argv[2], skey = argv[3];
-	/*string plain_text = "7A6C731D22347676";
-	string skey = "1323445A6D788381";*/
+
 	// getting 64-bit key from hexa key
 	ull key = to_ull(skey);
 
